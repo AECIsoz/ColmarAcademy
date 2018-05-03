@@ -112,8 +112,6 @@ header a:visited {
   }
 
   header {
-  /*display: flex;
-  justify-content: space-around;*/
   height: 4rem;
   width: 100%;
   background-color: #FFFCF6;
@@ -127,6 +125,10 @@ header a:visited {
 
   .mobile-nav img {
     display: inline-flex;
+  }
+
+  .mobile-nav img:hover {
+    border: 1px dashed #647b96;
   }
 
 }
@@ -189,6 +191,7 @@ header a:visited {
 
   .banner-info h3 {
     padding-bottom: 1.5rem;
+    padding-right: 1rem;
   }
 
 }
@@ -292,6 +295,7 @@ font-size: 0.85rem;
   .info-text {
     padding-left: 1rem;
     padding-bottom: 2rem;
+    width: 90%;
   }
 
   .info-text h3 {
@@ -414,6 +418,11 @@ font-size: 0.85rem;
   padding-bottom: 1.5rem;
 }
 
+.thesis video:hover {
+  box-shadow: 8px 8px 5px grey;
+  transition: box-shadow 1.2s ease;
+}
+
 .thesis h3 {
   padding-bottom: 0.5rem;
 }
@@ -441,7 +450,9 @@ font-size: 0.85rem;
 
   .thesis video {
     width: 100%;
+    box-shadow: none;
   }
+
 }
 
 /*footer*/
